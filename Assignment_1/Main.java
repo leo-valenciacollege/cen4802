@@ -1,6 +1,17 @@
 package cen4802.Assignment_1;
 
+/**
+ * The Main class contains methods to calculate and display Fibonacci numbers.
+ */
+
 public class Main {
+	
+	/**
+     * Calculates the nth term in the Fibonacci sequence.
+     *
+     * @param n The position of the term to calculate.
+     * @return The nth term in the Fibonacci sequence.
+     */
 	
 	public static int calculateFibonacci(int n) {
         if (n <= 1) {
